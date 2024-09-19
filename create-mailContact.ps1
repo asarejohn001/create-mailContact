@@ -47,6 +47,9 @@ $csvFilePath = "C:\path\to\your\contacts.csv"
 # Import the CSV file
 $contacts = Import-Csv -Path $csvFilePath
 
+# Signal script progress
+Write-Host "Script in-progress..."
+
 # Loop through each contact and create a new mail contact
 foreach ($contact in $contacts) {
     try {
@@ -63,3 +66,9 @@ foreach ($contact in $contacts) {
         Write-Error "Error occurred while creating contact: $($contact.Name). Error: $($_.Exception.Message)"
     }
 }
+
+#Signal when script is done
+Write-Host "Script is done, check log file"
+
+# Disconnect from EXO
+Connect-ExchangeOnline
