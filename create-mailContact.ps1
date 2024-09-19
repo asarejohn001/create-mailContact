@@ -71,4 +71,4 @@ foreach ($contact in $contacts) {
 Write-Host "Script is done, check log file"
 
 # Disconnect from EXO
-Connect-ExchangeOnline
+Diconnect-ExchangeOnline
