@@ -3,4 +3,5 @@ In Exchange Online organizations, mail contacts are mail-enabled objects that co
 Learn more about mail contact at https://learn.microsoft.com/en-us/exchange/recipients-in-exchange-online/recipients-in-exchange-online
 
 ## Script
-The script [create-mailContact.ps1](create-mailContact.ps1) will help you create multiple mail contacts in your Exchange environment. 
+The script [create-mailContact.ps1](create-mailContact.ps1) help 365 engineers and administrators creates multiple mail contact in their environment. 
+It imports the [ExchangeOnlineManagement module](https://learn.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps)
