@@ -8,4 +8,5 @@ It imports the [ExchangeOnlineManagement module](https://learn.microsoft.com/en-
 
 ### Important !
 > [!IMPORTANT]  
-> Crucial information necessary for users to succeed.
+> Please make sure you have change the variables in the script to fit your environment.
+> l$ogFilePath
