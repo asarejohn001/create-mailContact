@@ -2,7 +2,7 @@
 Author: John Asare
 Date: 09/19/2024
 
-Description: Read more about this script from 
+Description: Read more about this script from https://github.com/asarejohn001/create-mailContact/edit/main/create-mailContact.ps1
 #>
 
 # Install module if not already
