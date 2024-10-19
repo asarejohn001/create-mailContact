@@ -8,5 +8,4 @@ It imports the [ExchangeOnlineManagement module](https://learn.microsoft.com/en-
 
 ### Important !
 > [!IMPORTANT]  
-> Please make sure you have change the variables in the script to fit your environment.
-> l$ogFilePath
+> Please make sure you have change the variables in the script to fit your environment. $logFilePath and $csvFilePath needs to set to fit your envrionment.
